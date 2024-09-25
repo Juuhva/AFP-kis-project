@@ -6,7 +6,7 @@ A cégünk kapott a Googletől megbízást, hogy készítsünk egy "To Do Listet
 
 ## 2. Jelenlegi helyzet
 
-Jelenleg a Google nem rendelkezik To Do List-tel, így nem rendelkeznek olyan szoftverrel a felhasználók, amelyekkel követhetik a teendőiket. Ezt szeretné megkönnyíteni a megrendelő, hogy a felhasználók rendszerezetten láthassák az adataikat, akár a naptárban is.
+Jelenleg a Google nem rendelkezik To Do List-tel, így a felhasználók nem tudják számon tartani teendőiket. Ezt szeretné megkönnyíteni a szoftverünk, hogy a felhasználók rendszerezetten és egy helyen láthassák a fontos dolgaikat, akár a naptárban is.
 
 ## 3. Vágyálom rendszer
 
