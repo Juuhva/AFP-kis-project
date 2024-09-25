@@ -1,6 +1,6 @@
 # Funkcionális Specifikáció
 ## 1. Jelenlegi helyzet
-
+Jelen állapotban a Google nem rendelkezik To Do List-tel ezért megkönnyítve a felhasználók teendőit vagy éppen fontos dolgait, hogy egy helyen láthassák a teendőiket ezzel megkönnyítve a napi rutinjukat akár naptárban is.
 ## 2. Vágyálom rendszer
 A projektünk célja, hogy egy optimális és használható To Do listet hozzunk létre a dolgozók számára. A programnak egyszerűnek, könnyen használhatónka átláthatónak kell lennie. Az alkalmazás funkció: Naptár, Lista, Reminder.
 
