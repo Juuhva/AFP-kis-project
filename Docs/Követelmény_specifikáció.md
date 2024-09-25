@@ -5,7 +5,7 @@ A cégünk kapott a googletől megbízást, hogy készítsünk egy "To Do Listet
 
 ## 2. Jelenlegi helyzet
 
-Jelenleg a Google nem rendelkezik To Do List-tel, így több különböző programmal tudják a felhasználók kezelni a teendőiket. Ezt szeretné megkönnyíteni a megrendelő, hogy a felhasználók rendszerezetten láthassák az adataikat, akár a naptárban is.
+Jelenleg a Google nem rendelkezik To Do List-tel, így nem rendelkeznek olyan szoftverrel a felhasználók, amelyekkel követhetik a teendőiket. Ezt szeretné megkönnyíteni a megrendelő, hogy a felhasználók rendszerezetten láthassák az adataikat, akár a naptárban is.
 
 ## 3. Vágyálom rendszer
 A project célja, hogy az ember/ügyfelek könnyen tudják rendszerezni a dolgaikat ami egyszerűen átláthatóbb, kezelhetőbb legyen. Funkciói az hogy emlékeztesse az ügyfelet az esetleges fontos vagy éppen mellékes dolgaira amit meg kell csinálni. 
@@ -14,13 +14,13 @@ Jelenleg a Google dolgozói a régi google calendárt használják, de sokak vé
 
 ## 5. Igényelt üzleti folyamatok modellje
 
-Egy olyan szoftver létrehozása, amely alkalmas arra, hogy a Google néhány funkcióját együttesen lehessen alkalmazni, ilyen például a naptár funkció és a lista készítése.
+Egy olyan szoftver létrehozása, amely alkalmas arra, hogy a Google néhány funkcióját együttesen lehessen alkalmazni az új alkalmazással, ilyen például a naptár funkció és a lista készítése.
 
 A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 - Naptár
-- List
-- Reminder
+- List (pl: bevásárlólista, napi rutin pontokba szedése)
+- Reminder (pl: jelzik a felhasználónak, ha az általa megadott időpont nemsokára elérkezik)
 
 ## 6. Követelménylista
 
