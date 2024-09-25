@@ -1,6 +1,6 @@
 # Követelmény specifikáció
 ## 1. Áttekintés
-A cégünk kapott a googletől megbízást, hogy készítsünk egy "To Do Listet", amivel a dolgozóiknak a mindennapi beosztását meg tudják könnyíteni. A célunk olyan szoftver készítése, ami átlátható, könnyen használható, gyors, rendszerezett. A szoftvert úgy terveztük, hogy maganélet és céges eseményeket is össze lehessen hangolni benne, gyorsan tanulható legyen mindenki számára. Megvalósításunk szerintünk eléri ezeket a specifikációkat. 
+A cégünk kapott a googletől megbízást, hogy készítsünk egy "To Do Listet", amivel a felhasználóinak a mindennapi beosztását meg tudják könnyíteni. A célunk olyan szoftver készítése, ami átlátható, könnyen használható, gyors, rendszerezett. A szoftvert úgy terveztük, hogy maganélet és céges eseményeket is össze lehessen hangolni benne, gyorsan tanulható legyen mindenki számára. Megvalósításunk szerintünk eléri ezeket a specifikációkat. 
 
 
 ## 2. Jelenlegi helyzet
@@ -10,7 +10,7 @@ Jelenleg a Google nem rendelkezik To Do List-tel, így több különböző progr
 ## 3. Vágyálom rendszer
 A project célja, hogy az ember/ügyfelek könnyen tudják rendszerezni a dolgaikat ami egyszerűen átláthatóbb, kezelhetőbb legyen. Funkciói az hogy emlékeztesse az ügyfelet az esetleges fontos vagy éppen mellékes dolgaira amit meg kell csinálni. 
 ## 4. Jelenlegi üzleti folyamatok modellje
-Jelenleg a Google dolgozói a régi google calendárt használják, de sokak véleménye szerint rendzsertelen, gyakran átláthatatlan, ezek kijavításán dolgozunk 
+Jelenleg a Google felhasználói a régi google calendárt használják, de sokak véleménye szerint rendzsertelen, gyakran átláthatatlan, ezek kijavításán dolgozunk 
 
 ## 5. Igényelt üzleti folyamatok modellje
 
