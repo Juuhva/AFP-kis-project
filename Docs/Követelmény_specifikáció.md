@@ -1,7 +1,7 @@
 # Követelmény specifikáció
 ## 1. Áttekintés
 
-A cégünk kapott a googletől megbízást, hogy készítsünk egy "To Do Listet", amivel a felhasználóinak a mindennapi beosztását meg tudják könnyíteni. A célunk olyan szoftver készítése, ami átlátható, könnyen használható, gyors, rendszerezett. A szoftvert úgy terveztük, hogy maganélet és céges eseményeket is össze lehessen hangolni benne, gyorsan tanulható legyen mindenki számára. Megvalósításunk szerintünk eléri ezeket a specifikációkat. 
+A cégünk kapott a Googletől megbízást, hogy készítsünk egy "To Do Listet", amivel a felhasználóinak a mindennapi beosztását meg tudják könnyíteni. A célunk olyan szoftver készítése, ami átlátható, könnyen használható, gyors, rendszerezett. A szoftvert úgy terveztük, hogy maganélet és céges eseményeket is össze lehessen hangolni benne, gyorsan tanulható legyen mindenki számára. 
 
 
 ## 2. Jelenlegi helyzet
