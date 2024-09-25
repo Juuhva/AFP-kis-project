@@ -5,7 +5,7 @@ Az cégünk kapott a googletől megbízást, hogy készítsünk egy "To Do Liste
 
 ## 2. Jelenlegi helyzet
 
-Jelenleg a Google nem rendelkezik To Do List-tel, így több különböző programmal tudják a felhasználók kezelni az adataikat. Ezt szeretné megkönnyíteni a megrendelő, hogy a felhasználók rendszerezetten láthassák az adataikat, akár a naptárban is.
+Jelenleg a Google nem rendelkezik To Do List-tel, így több különböző programmal tudják a felhasználók kezelni a teendőiket. Ezt szeretné megkönnyíteni a megrendelő, hogy a felhasználók rendszerezetten láthassák az adataikat, akár a naptárban is.
 
 ## 3. Vágyálom rendszer
 A project célja, hogy az ember/ügyfelek könnyen tudják rendszerezni a dolgaikat ami egyszerűen átláthatóbb, kezelhetőbb legyen. Funkciói az hogy emlékeztesse az ügyfelet az esetleges fontos vagy éppen mellékes dolgaira amit meg kell csinálni. 
