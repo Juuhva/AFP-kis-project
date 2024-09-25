@@ -2,6 +2,7 @@
 ## 1. Jelenlegi helyzet
 
 ## 2. Vágyálom rendszer
+A projektünk célja, hogy egy optimális és használható To Do listet hozzunk létre a dolgozók számára. A programnak egyszerűnek, könnyen használhatónka átláthatónak kell lennie. Az alkalmazás funkció: Naptár, Lista, Reminder.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
