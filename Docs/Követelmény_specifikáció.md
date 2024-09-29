@@ -10,7 +10,7 @@ Jelenleg a Google nem rendelkezik To Do List-tel, így a felhasználók nem tudj
 
 ## 3. Vágyálom rendszer
 
-A project célja, hogy az felhasználók könnyen tudják rendszerezni a dolgaikat ami egyszerűen átláthatóbb, kezelhetőbb legyen. Funkciói az hogy emlékeztesse az felhasználókat az esetleges fontos vagy éppen mellékes dolgaira amit meg kell csinálni. 
+A project célja, hogy a felhasználók könnyen tudják rendszerezni a dolgaikat 1 felületen ami egyszerűen átláthatóbb illetve kezelhetőbb. Funkciói az, hogy emlékeztesse a felhasználókat az esetleges fontos vagy éppen mellékes dolgaikra amit éppen el kell végezni.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
