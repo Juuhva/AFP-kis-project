@@ -1,6 +1,8 @@
 # Funkcionális Specifikáció
 ## 1. Jelenlegi helyzet
 
+Jelenleg a Google nem rendelkezik To Do List-tel, így a felhasználók nem tudják követni mindennapi teendőiket. Ezért szeretnénk megkönnyíteni egy egyszerű szoftver segítségével, hogy a felhasználók rendszerezetten és egy helyen láthassák a fontos dolgaikat, teendőiket akár naptárban is.
+
 ## 2. Vágyálom rendszer
 
 ## 3. Jelenlegi üzleti folyamatok modellje
@@ -19,11 +21,19 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 ## 5. Követelménylista
 
+| To Do List |                          | Kifejtés |
+| Cím |                                 | Ide nap vagy idő vagy tetszőleges cím ami jellemzi|
+| Leírás |                              | Adott dolog megcsinálása |
+| Új | Szerkesztés | Törlés | Mentés |  | Gombok |
+| Tábla a felvett teendővel |           | Teendőink amiket felvettünk |
+
 ## 6. Használati esetek
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
 ## 8. Képernyőtervek
+
+![korai_látványterv](../Docs/Img/TODOLIST.png)
 
 ## 9. Forgatókönyvek
 
