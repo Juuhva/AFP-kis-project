@@ -33,7 +33,11 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 ## 8. Képernyőtervek
 
+### Korai Látványterv
 ![korai_látványterv](../Docs/Img/TODOLIST.png)
+
+### Korai Prototípus
+![prototípus](../Docs/Img/TODOLISTBeta.png)
 
 ## 9. Forgatókönyvek
 
