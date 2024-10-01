@@ -66,15 +66,28 @@
 
 ### Vásárolt szoftverkomponensek, valamint esetleges külső rendszerek
 
+Fejlesztés alatt nem használunk semmilyen vásárolt szoftvert.
+
 ### Hardver topológia
+
+Standalone Workstation: Egyetlen számítógép, amelyen Windows fut. Nincs hálózati kapcsolat más gépekkel, az összes hardver (CPU, memória, tárhely, perifériák) közvetlenül a géphez van csatlakoztatva.
 
 ### Fizikai alrendszerek
 
+Kliens gépek: A követelményeknek megfelelő, Windows-ra alkalmas PC-k, amin telepítve van a .Net keretrendszer.
+
 ### Fejlesztő eszközök
+
+IDE:Visual Studio 2024
 
 ## 7. Architekturális terv
 
+A program használatához nincs szükség sem internetkapcsolatra, sem külső adatbázisra.
+Az alkalmazás a felhasználó számítógépén futtatható, ha a szükséges .NET keretrendszer telepítve van. 
+
 ## 8. Adatbázis terv
+
+Az alkalmazásunkhoz nem szükséges adatbázis. Az adatokat egy .txt kiterjesztésű fájlban tároljuk a felhasználó számítógépén, ezt a program felhasználásával lehet írni és olvasni.
 
 ## 9. Implementációs terv
 
