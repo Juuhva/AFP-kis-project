@@ -53,8 +53,8 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 ### Fogalomszótár
 
-*To Do List: Teendőlista, olyan felület, ahol a felhasználók listázhatják és rendszerezhetik a teendőiket.
-*Reminder: Emlékeztető, amely figyelmezteti a felhasználót egy előre meghatározott esemény időpontjára.
-Google Calendar: A Google naptárszolgáltatása, amely lehetőséget biztosít események és találkozók időzítésére.
-*List: Lista, amely különböző teendőket vagy elemeket tartalmazhat, például bevásárlólistát vagy napi rutinokat.
-*Prototípus: Az alkalmazás egy kezdeti, még fejlesztés alatt álló verziója, amely bemutatja az alapvető funkciókat.
+* To Do List: Teendőlista, olyan felület, ahol a felhasználók listázhatják és rendszerezhetik a teendőiket.
+* Reminder: Emlékeztető, amely figyelmezteti a felhasználót egy előre meghatározott esemény időpontjára.
+* Google Calendar: A Google naptárszolgáltatása, amely lehetőséget biztosít események és találkozók időzítésére.
+* List: Lista, amely különböző teendőket vagy elemeket tartalmazhat, például bevásárlólistát vagy napi rutinokat.
+* Prototípus: Az alkalmazás egy kezdeti, még fejlesztés alatt álló verziója, amely bemutatja az alapvető funkciókat.
