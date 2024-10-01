@@ -5,6 +5,8 @@ Jelenleg a Google nem rendelkezik To Do List-tel, így a felhasználók nem tudj
 
 ## 2. Vágyálom rendszer
 
+A projektünk célja, hogy egy könnyen használható és optimális To Do Listet hozzunk létre felhasználóink számára. A programnak egyszerűnek és könnyen átláthatónak kell lennie. Az alkalmazás funkciói: naptár, listák, emlékeztetők.
+
 ## 3. Jelenlegi üzleti folyamatok modellje
 
 Jelenleg a felhasználók a régi Google Calendar-t használják, amiben a teendőiket gyakran nem látják át és rendszertelenül jelenik meg.
@@ -44,3 +46,14 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 ## 10. Funkció - követelmény megfeleltetése
 
 ## 11. Fogalomszótár
+
+Task: feladatokra utal, jellemzően a teendőlistán szereplő elemekre.
+Reminder: emlékeztetőt jelent, és segít a felhasználóknak emlékezni a fontos feladatokra.
+User: szoftver használójára utal.
+Create: új feladat létrehozására utal.
+Edit: meglévő feladatok módosítását jelenti.
+Delete: feladat eltávolítására vonatkozik.
+Save: módosítások rögzítését jelenti.
+Prototype: egy kezdeti verziót vagy mintát jelent, amely a tesztelésre szolgál.
+Interface: a felhasználói felületre utal, ahol a felhasználók interakcióba lépnek a szoftverrel.
+Workflow: munka vagy feladatok áramlását jelenti egy rendszerben.
