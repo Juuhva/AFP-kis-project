@@ -23,11 +23,15 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 ## 5. Követelménylista
 
-| To Do List |                          | Kifejtés |
-| Cím |                                 | Ide nap vagy idő vagy tetszőleges cím ami jellemzi|
-| Leírás |                              | Adott dolog megcsinálása |
-| Új | Szerkesztés | Törlés | Mentés |  | Gombok |
-| Tábla a felvett teendővel |           | Teendőink amiket felvettünk |
+| To Do List | Kifejtés |
+| :---: | --- |
+| Cím | Tetszőleges cím ami jellemzi a teendőit|
+| Leírás | Adott teendő elkészítése |
+| Új | Új teendő létrehozása|
+|Szerkesztés | Teendő szerkesztése|
+|Törlés | Kijelölt teendő törlése|
+|Mentés | Teendő mentése|
+| Tábla a felvett teendővel | Teendőinket itt látjuk amiket felvettünk |
 
 ## 6. Használati esetek
 
