@@ -30,7 +30,7 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 ## 6. Követelménylista
 
 |ID|| Név | Kifejtés |
-| :---: | --- | --- |
+| :---: | --- | --- | --- |
 | K1 | Cím | Tetszőleges cím ami jellemzi a teendőt|
 | K2 | Leírás | Adott teendő elkészítése |
 | K3 | Új | Létrehozhatnak egy új teendőt|
