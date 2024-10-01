@@ -41,6 +41,7 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 ## 7. Fogalomtár
 
-* To Do List: Digitális eszköz, amely lehetővé teszi a felhasználók számára a feladatok nyomon követését.
+* To Do List: (teendőlista) egy olyan eszköz, amely segít rendszerezni és nyomon követni a napi, heti vagy hosszú távú feladatokat.
+* Google Calendar: A Google naptárszolgáltatása, amely lehetőséget biztosít események és találkozók időzítésére.
 * Project: A szoftver fejlesztésének kerete, amely célzott tevékenységeket foglal magában.
 * Reminder: Olyan értesítés, amely figyelmezteti a felhasználót a közelgő teendőkre.
