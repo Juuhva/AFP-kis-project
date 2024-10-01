@@ -36,3 +36,7 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 | Tábla a felvett teendővel |           | Teendőinket itt látjuk amiket felvettünk |
 
 ## 7. Fogalomtár
+
+To Do List: Digitális eszköz, amely lehetővé teszi a felhasználók számára a feladatok nyomon követését.
+Project: A szoftver fejlesztésének kerete, amely célzott tevékenységeket foglal magában.
+Reminder: Olyan értesítés, amely figyelmezteti a felhasználót a közelgő teendőkre.

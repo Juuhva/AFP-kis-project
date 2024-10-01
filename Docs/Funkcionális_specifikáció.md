@@ -47,13 +47,10 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 
 ## 11. Fogalomszótár
 
-Task: feladatokra utal, jellemzően a teendőlistán szereplő elemekre.
-Reminder: emlékeztetőt jelent, és segít a felhasználóknak emlékezni a fontos feladatokra.
-User: szoftver használójára utal.
-Create: új feladat létrehozására utal.
-Edit: meglévő feladatok módosítását jelenti.
-Delete: feladat eltávolítására vonatkozik.
-Save: módosítások rögzítését jelenti.
-Prototype: egy kezdeti verziót vagy mintát jelent, amely a tesztelésre szolgál.
-Interface: a felhasználói felületre utal, ahol a felhasználók interakcióba lépnek a szoftverrel.
-Workflow: munka vagy feladatok áramlását jelenti egy rendszerben.
+### Fogalomszótár
+
+*To Do List: Teendőlista, olyan felület, ahol a felhasználók listázhatják és rendszerezhetik a teendőiket.
+*Reminder: Emlékeztető, amely figyelmezteti a felhasználót egy előre meghatározott esemény időpontjára.
+Google Calendar: A Google naptárszolgáltatása, amely lehetőséget biztosít események és találkozók időzítésére.
+*List: Lista, amely különböző teendőket vagy elemeket tartalmazhat, például bevásárlólistát vagy napi rutinokat.
+*Prototípus: Az alkalmazás egy kezdeti, még fejlesztés alatt álló verziója, amely bemutatja az alapvető funkciókat.
