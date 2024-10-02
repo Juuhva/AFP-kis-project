@@ -18,13 +18,13 @@
    		
 * Frontend:
 	-   Hegyközi Petra
-	-   Soros Viktor
+	-   Habóczki Szabolcs
 * Backend:  
 	-   Csonka Mihály
-	-   Habóczki Szabolcs
+ 	-   Vincze Ákos 
 * Tesztelés:   
 	-   Hegyközi Petra
-	-   Soros Viktor
+	-   Vincze Ákos
 	-   Habóczki Szabolcs
 	-   Csonka Mihály
 
