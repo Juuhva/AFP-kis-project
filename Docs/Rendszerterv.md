@@ -123,8 +123,13 @@ Az alkalmazásunkhoz nem szükséges adatbázis. Az adatokat egy .txt kiterjeszt
 
 ## 9. Implementációs terv
 
+* A felhasználói felület: Windows Forms alkalmazás
+* .NET keretrendszert használ a program, ezzel lehetővé téve az alkalmazás indítását és futtatását
+
 ## 10. Tesztterv
 
 ## 11. Telepítési terv
 
 ## 12. Karbantartási terv
+
+Az alkalmazás nem igényel különösebb karbantartást, újabb funkciók hozzáadása esetén a felhasználó számára frissítést teszünk elérhetővé.
