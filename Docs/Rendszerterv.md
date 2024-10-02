@@ -57,15 +57,42 @@ A program indulását követően a felhasználó azonnal használhatja a TO-DO-L
 
 ### Követelménytáblázat
 
+| ID | Név | Kifejtés |
+| :---: | --- | --- |
+| K1 | Cím | Tetszőleges cím, ami jellemzi a teendőt|
+| K2 | Leírás | Adott teendő elkészítése |
+| K3 | Új | Létrehozhatnak egy új teendőt|
+| K4 |Szerkesztés | Tudják szerkeszteni a kiválasztott teendőt|
+| K5 | Törlés | Törölni tudják a teendőt|
+| K6 | Mentés | Menteni tudják a teendőt|
+| K7 | Tábla a felvett teendővel | Teendőinket itt látjuk amiket felvettünk |
+
+
 ### Funkcionális
 
+* Új teendők felvétele, címmel és leírással
+* A felhasználó által megadott teendők tárolása, módosításainak mentése
+* Megakadályozni azt, hogy a felhasználó érvénytelen adatot adjon meg a naptárban
+
 ### Nem Funkcionális
+
+* Átláthatónak és könnyen kezelhetőnek kell lennie
+* A program nézzen ki viszonylag letisztultnak, modernnek
 
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
 
+A rendszer a felhasználó gépén fut helyileg, nem szükséges internetre kapcsolódni. A felhasználók között nem teszünk különbséget, mivel egyetlen jogosultsági kör van.
+
 ### 5.2 Menü-hierarchia:
+
+* Interface:
+	-   A program kezelésére használt gombok (bezárás, tálcára rakás)
+	-   A felhasználó által megadható címet és leírást tartalmazó szövegdobozok
+	-   Gombok, amelyek segítségével szerkeszteni, menteni vagy módosítani lehet egy teendőt
+	-   Gomb egy új teendő hozzáadásához
+	-   Lista, ahol szerepelnek a felhasználó által hozzáadott teendők
 
 ## 6. Fizikai környezet
 
