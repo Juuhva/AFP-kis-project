@@ -1,6 +1,8 @@
 # Rendszerterv
 ## 1. A rendszer célja
 
+A cégünk a Googletől kapott megbízást, hogy készítsünk egy To Do List-et, amivel a felhasználóinak a mindennapi beosztását és teendőit meg tudják könnyíteni. A célunk olyan szoftver készítése, ami átlátható, könnyen használható, gyors és rendszerezett. A szoftvert úgy terveztük, hogy maganélet és céges eseményeket is össze lehessen hangolni benne, gyorsan tanulható legyen mindenki számára. A rendszer alapköve az átlagos To Do List funkcióinak kibővítése és frissítése naptárral kiegészítve.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek
@@ -43,10 +45,13 @@
 ### 2.4 Mérföldkövek
 
 ## 3. Üzleti folyamatok modellje
+![folyamatabra](../Docs/Img/TODOLIST-folyamatábra.png)
 
 ### 3.1 Üzleti szereplők
+A applikáció használatához nincs szükség regisztrációra. A telepítést követően a applikáció bármely felhasználó számára elérhető, teljesen egészében az összes funkcióval eggyütt.
 
 ### 3.2 Üzleti folyamatok
+A program indulását követően a felhasználó azonnal használhatja a TO-DO-LIST minden funkcióját. A felhasználó választhat hogy teendőt akar létrehozni, szerkeszteni, törölni.
 
 ## 4. Követelmények
 
