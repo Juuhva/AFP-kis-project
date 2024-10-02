@@ -1,6 +1,8 @@
 # Rendszerterv
 ## 1. A rendszer célja
 
+A cégünk a Googletől kapott megbízást, hogy készítsünk egy To Do List-et, amivel a felhasználóinak a mindennapi beosztását és teendőit meg tudják könnyíteni. A célunk olyan szoftver készítése, ami átlátható, könnyen használható, gyors és rendszerezett. A szoftvert úgy terveztük, hogy maganélet és céges eseményeket is össze lehessen hangolni benne, gyorsan tanulható legyen mindenki számára. A rendszer alapköve az átlagos To Do List funkcióinak kibővítése és frissítése naptárral kiegészítve.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek
