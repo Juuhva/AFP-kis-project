@@ -45,7 +45,7 @@ A cégünk a Googletől kapott megbízást, hogy készítsünk egy To Do List-et
 ### 2.4 Mérföldkövek
 
 ## 3. Üzleti folyamatok modellje
-![folyamatabra](../Docs/Img/TODOLIST-folyamatábra.png)
+![folyamatabra](../Docs/Img/TODOLIST_folyamatábra.png)
 
 ### 3.1 Üzleti szereplők
 A applikáció használatához nincs szükség regisztrációra. A telepítést követően a applikáció bármely felhasználó számára elérhető, teljesen egészében az összes funkcióval eggyütt.

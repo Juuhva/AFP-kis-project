@@ -36,14 +36,18 @@ A To Do List nem sokban különbözik az alapmodelltől, tartalmazza:
 ## 6. Használati esetek
 
 A felhasználó az alkalmazásban gombok segítségével ki tudja választani, hogy milyen műveletet szeretne elvégezni a már meglévő, illetve az új teendőivel. A program eltárolja a címmel és leírással ellátott teendőket, amit a felhasználó tud szerkeszteni, majd elmenteni a változtatásokat, illetve törölheti azt. Ha elvégzésre került egy teendő, akkor egy pipával jelezhető annak állapota.
+
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+
 
 ## 8. Képernyőtervek
 
 ### Korai Látványterv
+
 ![korai_látványterv](../Docs/Img/TODOLIST.png)
 
 ### Korai Prototípus
+
 ![prototípus](../Docs/Img/TODOLISTBeta.png)
 
 ## 9. Forgatókönyvek
