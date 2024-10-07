@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ namespace TODOLIST
 {
      public class Calendar
     {
+        StreamWriter sw = new StreamWriter("Naptar.txt");
+
 
         List<Task> tasks = new List<Task>();
         //public List<Task> Tasks;
@@ -23,7 +26,7 @@ namespace TODOLIST
             tasks.Add(task);
         }
 
-        public void Delete(List<Task> tasks, Task task)
+        public void Delete(Task task)
         {
             tasks.Remove(task);
         }
@@ -36,7 +39,33 @@ namespace TODOLIST
             tasks[tasks.IndexOf(task)].Date = date;
         }
 
-        
+        public void Save()
+        {
+            for (int i = 0; i < tasks.Count; i++)
+            {
+                sw.Write(tasks[i]);
+            }
 
+            sw.Close();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public int getLenght
+        {
+            get { return tasks.Count; }
+        }
     }
 }
