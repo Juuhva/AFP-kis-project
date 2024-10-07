@@ -42,7 +42,6 @@ namespace TODOLIST
 
             StreamReader sr = new StreamReader("Naptar.txt");
             Task readTask;
-
             while (!sr.EndOfStream)
             {
                 String[] line = new string[3];
@@ -59,12 +58,12 @@ namespace TODOLIST
 
         private void WriteNaptar()
         {
-            StreamWriter sw = new StreamWriter("Naptar.txt");
-            string[] t = new string[3];
+            StreamWriter sw = new StreamWriter("Naptar.txt", true);
+            string[] line = new string[3];
             for (int i = 0; i < calendar.getLenght; i++)
             {
-                t = calendar.ToArray(i);
-                sw.WriteLine(t[0] + "Ł" + t[1] + "Ł" + t[2]);
+                line = calendar.ToArray(i);
+                sw.WriteLine(line[0] + "Ł" + line[1] + "Ł" + line[2]);
             
             }
 
@@ -99,6 +98,7 @@ namespace TODOLIST
         private void button4_Click(object sender, EventArgs e) //save
         {
             WriteNaptar();
+            this.Close();
         }
 
 
