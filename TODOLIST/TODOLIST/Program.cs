@@ -17,15 +17,17 @@ namespace TODOLIST
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
         }
         
+        public static Calendar calendar = new Calendar();
 
         
 
-        public static void AddNewTask(string title, string disc, DateTime DateTimePicker)
+       /*public static void AddNewTask(string title, string disc, DateTime DateTimePicker)
         {
             Task task = new Task(title, disc, DateTimePicker);
             //calendar.NewTask(task);
-        }
+        }*/
     }
 }

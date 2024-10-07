@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace TODOLIST
 {
-    class Calendar
+     public class Calendar
     {
 
-        List<Task> tasks;
+        List<Task> tasks = new List<Task>();
         //public List<Task> Tasks;
 
-        
+        public Calendar()
+        {
+            List<Task> tasks;
+        }
 
-         public void NewTask(Task task)
+
+        public  void NewTask(Task task)
         {
             tasks.Add(task);
         }

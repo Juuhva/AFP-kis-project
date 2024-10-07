@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TODOLIST
 {
-    class Task
+    public class Task
     {
 
         string title;
