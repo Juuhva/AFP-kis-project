@@ -74,11 +74,9 @@ namespace TODOLIST
         {
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
             calendar.NewTask(tempTask);
-            int db = 0; // az inserthez kell egy index
-            checkedListBox.Items.Insert(db, tempTask.Title); // A címet illeszti be a listába
+            checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
-            db++;
         }
 
         private void button2_Click(object sender, EventArgs e) //Edit
