@@ -62,9 +62,49 @@ A felhasználó az alkalmazásban gombok segítségével ki tudja választani, h
 
 ## 9. Forgatókönyvek
 
+A program elindítása után minden felhasználónak a főablak jelenik meg, melyben a következők jelennek meg:
+
+    Feladatlista megjelenítésére szolgáló szövegdoboz
+    Felhasználó által hozzáadható új feladat gombjai
+        Új feladat hozzáadása szövegmezőbe
+        Hozzáadás gomb
+    Feladatok kezelése gombokkal:
+        Feladat megjelölése elvégzettként
+        Feladat szerkesztése
+        Feladat törlése
+
+A szövegdobozban jelenik meg:
+
+    A felhasználó által megadott feladatok listája
+
+A felhasználó új feladatot tud hozzáadni a megfelelő mezőbe beírva, majd a Hozzáadás gomb megnyomásával a feladat bekerül a listába. Minden új feladat a listában jelenik meg, ahol a feladatokat kategóriákba is lehet sorolni.
+A feladatok kezelése:
+
+    Ha egy feladatot elvégzettnek jelöl, akkor az törlődik.
+    Ha egy feladatot szerkeszteni szeretne, akkor a szerkesztés gombra kattintva módosíthatja annak szövegét vagy kategóriáját.
+    Ha a felhasználó törölni szeretne egy feladatot, a Törlés gomb segítségével véglegesen eltávolíthatja azt a listából.
+
+Különleges funkciók:
+
+    Ha a felhasználó hibásan adott meg egy feladatot, és törölni szeretné, akkor a Törlés gombbal tudja megtenni.
+
+
+Egyéb műveletek:
+
+    Ha a felhasználó hibásan írt be egy feladatot, és azt kijavítani szeretné, a szerkesztés gombbal tudja megtenni.
+
 ## 10. Funkció - követelmény megfeleltetése
 
+Id|Követelmény|Funkció|
+K1|Hibamentes működés, letisztult megjelenítés|	Egy felhasználó által megadott új feladat hozzáadása a listához a „Hozzáadás” gomb megnyomása után.
+K2|Hibamentes működés, letisztult megjelenítés|	Egy meglévő feladat módosítása. A „Szerkesztés” gomb megnyomása után a felhasználó módosíthatja a kiválasztott feladatot, ami frissítve jelenik meg a listában.
+K3|Hibamentes működés, letisztult megjelenítés|	Egy meglévő feladat törlése a listából a „Törlés” gomb megnyomása után.
+K4|Precíz, hibamentes működés, letisztult megjelenítés|	A törlés gomb eltávolít egy adott feladatot a listából, ha van kiválasztott feladat. Üres lista esetén a gomb megnyomása nem változtat semmin.
+K5|Gyors eredménymegadás, pontosság, kiszámíthatóság|	A felhasználó által végrehajtott műveletek (hozzáadás, szerkesztés, törlés) után a frissített lista helyesen és azonnal megjelenik a felületen. Ha nincs aktív feladat, a műveletek nem változtatnak semmin.
+
 ## 11. Fogalomszótár
+
+
 
 ### Fogalomszótár
 
