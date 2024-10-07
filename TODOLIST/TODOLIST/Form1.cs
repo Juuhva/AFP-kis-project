@@ -88,7 +88,10 @@ namespace TODOLIST
         {
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
             calendar.NewTask(tempTask);
-            checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába
+            if (tempTask.Title != "")
+            {
+                checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába
+            }
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
         }
