@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace TODOLIST
 {
-    internal static class Program
+    public static class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -17,6 +17,15 @@ namespace TODOLIST
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+        }
+        
+
+        
+
+        public static void AddNewTask(string title, string disc, DateTime DateTimePicker)
+        {
+            Task task = new Task(title, disc, DateTimePicker);
+            //calendar.NewTask(task);
         }
     }
 }

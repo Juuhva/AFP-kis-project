@@ -10,11 +10,11 @@ namespace TODOLIST
     {
 
         List<Task> tasks;
-        public List<Task> Tasks;
+        //public List<Task> Tasks;
 
         
 
-        public void NewTask(List<Task> tasks, Task task)
+         public void NewTask(Task task)
         {
             tasks.Add(task);
         }
