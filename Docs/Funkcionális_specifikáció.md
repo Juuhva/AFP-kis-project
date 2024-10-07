@@ -39,6 +39,16 @@ A felhasználó az alkalmazásban gombok segítségével ki tudja választani, h
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
+|ID|Leírás           |
+|-------------------------|---------------------------|
+|K1|A felhasználó megadja a teendőjének a címét.|          
+|K2|A felhasználó megadja a teendőjének a leírását.|
+|K3|A felhasználó az új gomb megnyomásával felveszi a kívánt teendőjét.|
+|K4|A felhasználó egyik előző teendőjét tudja szerkeszteni.|
+|K5|A felhasználó tudja törlni egyik előző teendőjét.|
+|K6|A felhasználó mentheti a szerkesztett illetve a létrehozni kívánt teendőjét.|
+|K7|A felhasználó megnézheti eddigi felvett teendőit.|
+
 
 ## 8. Képernyőtervek
 

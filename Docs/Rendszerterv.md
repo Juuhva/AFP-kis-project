@@ -128,7 +128,17 @@ Az alkalmazásunkhoz nem szükséges adatbázis. Az adatokat egy .txt kiterjeszt
 
 ## 10. Tesztterv
 
+A rendszerterv szerint implementált szoftver tesztelésének célja az Üzleti folyamatok modellje című pontban meghatározott folyamatok helyes, gördülékeny lefutása.
+
+A tesztelés során használt kliens hardverek a napjainkban általánosan elterjedt hardverkonfigurációjú PC-k illetve laptopok. A minimum hardverkonfiguráció: Intel Celeron processzor, 8GB RAM, 128GB SDD, a képernyők felbontása 1280x1024 vagy 1920x1080.
+
+A tesztelés során a szoftver megfelelő működését vizsgáljuk. Amennyiben az elvártnak megfelelő eredményt kapunk, a teszt eset sikeresnek tekinthető, ellenkező esetben a hibát rögzítjük a teszt jegyzőkönyvben.
+
 ## 11. Telepítési terv
+
+Fizikai telepítési terv: A To do list nem csatlakozik adatbázishoz (csak egy txt fájlba vannak az adatok), webszerverhez és internethez, csak a számítógépen kell futtatni.
+
+Szoftver telepítési terv: Szükségünk van egy minimum 64-bites Windows-t futtató számítógépre, hogy futtathassuk a programot.
 
 ## 12. Karbantartási terv
 
