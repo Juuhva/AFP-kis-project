@@ -90,6 +90,14 @@ namespace TODOLIST
         {
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
             calendar.Delete(tempTask);
+            int count = checkedListBox.Items.Count;
+            for (int i = count; i > 0; i--)
+            {
+                if (checkedListBox.CheckedItems.Contains(checkedListBox.Items[i-1]))
+                {
+                    checkedListBox.Items.RemoveAt(i - 1); // teendő eltávolítása
+                }
+            }
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
 
