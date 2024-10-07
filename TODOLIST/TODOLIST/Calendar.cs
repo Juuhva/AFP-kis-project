@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,6 +44,19 @@ namespace TODOLIST
 
         }
 
+        public Task index(int i)
+        {
+            return tasks[i];
+        }
+
+        public string[] ToArray(int i)
+        {
+            string[] array = new string[3]; // Creates an array with 3 elements
+            array[0] = tasks[i].Title;
+            array[1] = tasks[i].Description;
+            array[2] = Convert.ToString(tasks[i].Date);
+            return array;
+        } 
 
 
 

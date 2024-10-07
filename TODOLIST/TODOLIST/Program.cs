@@ -20,31 +20,9 @@ namespace TODOLIST
         [STAThread]
         static void Main()
         {
-
-
-            //ClearFile("Naptar.txt");
-
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
-
-            
-            
-
-
         }
-        
-        
-
-        
-
-       /*public static void AddNewTask(string title, string disc, DateTime DateTimePicker)
-        {
-            Task task = new Task(title, disc, DateTimePicker);
-            //calendar.NewTask(task);
-        }*/
     }
 }

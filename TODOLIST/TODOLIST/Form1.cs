@@ -26,7 +26,7 @@ namespace TODOLIST
 
         #region
 
-        static void ClearFile(string filePath)
+        private void ClearFile(string filePath)
         {
             using (StreamWriter writer = new StreamWriter(filePath, false))
             {
@@ -46,7 +46,7 @@ namespace TODOLIST
             while (!sr.EndOfStream)
             {
                 String[] line = new string[3];
-                line = sr.ReadLine().Split(',');
+                line = sr.ReadLine().Split('Ł');
                 readTask = new Task(line[0], line[1], DateTime.Parse(line[2]));
                 calendar.NewTask(readTask);
             }
@@ -56,8 +56,20 @@ namespace TODOLIST
 
         #endregion
 
-        StreamWriter sw = new StreamWriter("Naptar.txt");
 
+        private void WriteNaptar()
+        {
+            StreamWriter sw = new StreamWriter("Naptar.txt");
+            string[] t = new string[3];
+            for (int i = 0; i < calendar.getLenght; i++)
+            {
+                t = calendar.ToArray(i);
+                sw.WriteLine(t[0] + "Ł" + t[1] + "Ł" + t[2]);
+            
+            }
+
+            sw.Close();
+        }
 
         private void button1_Click(object sender, EventArgs e) //new task btn
         {
@@ -86,8 +98,7 @@ namespace TODOLIST
 
         private void button4_Click(object sender, EventArgs e) //save
         {
-
-            calendar.Save();
+            WriteNaptar();
         }
 
 
