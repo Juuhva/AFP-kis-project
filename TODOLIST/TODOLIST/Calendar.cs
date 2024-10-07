@@ -74,7 +74,7 @@ namespace TODOLIST
 
         public string ToString(int i)
         {
-            return tasks[i].Title + " " + tasks[i].Description+" " + tasks[i].Date;
+            return "Feladat:"+tasks[i].Title + " Leírás:" + tasks[i].Description+" Időpont:" + tasks[i].Date;
         }
 
 

@@ -49,7 +49,6 @@ namespace TODOLIST
                 calendar.NewTask(readTask);
             }
             sr.Close();
-            ClearFile("Naptar.txt");
         }
 
 
@@ -77,8 +76,6 @@ namespace TODOLIST
             {
                 line = calendar.ToArray(i);
                 sw.WriteLine(line[0] + "Ł" + line[1] + "Ł" + line[2]);
-                checkedListBox.Items.Add(calendar.ToString(i));
-            
             }
 
             sw.Close();
@@ -88,10 +85,14 @@ namespace TODOLIST
         {
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
             calendar.NewTask(tempTask);
+<<<<<<< Updated upstream
             if (tempTask.Title != "")
             {
                 checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába
             }
+=======
+            checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába, Misi: az miért jó?
+>>>>>>> Stashed changes
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
         }
@@ -112,7 +113,7 @@ namespace TODOLIST
             {
                 if (checkedListBox.CheckedItems.Contains(checkedListBox.Items[i-1]))
                 {
-                    checkedListBox.Items.RemoveAt(i - 1); // teendő eltávolítása
+                    checkedListBox.Items.RemoveAt(i - 1); // teendő eltávolítása, Misi:Listából is el kell tavolitani
                 }
             }
             Cim_textBox.Clear();
@@ -123,7 +124,8 @@ namespace TODOLIST
 
         private void button4_Click(object sender, EventArgs e) //save
         {
-            checkedListBox.Items.Clear();
+
+            ClearFile("Naptar.txt");
             WriteNaptar();
             this.Close();
         }
