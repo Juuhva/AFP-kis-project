@@ -9,19 +9,9 @@ namespace TODOLIST
 {
     public static class Program
     {
-        public static Calendar calendar = new Calendar();
+        
 
 
-
-       /* static void ClearFile(string filePath)
-        {
-            using (StreamWriter writer = new StreamWriter(filePath, false))
-            {
-           
-            }
-
-            
-        }*/
 
 
         /// <summary>
@@ -31,17 +21,6 @@ namespace TODOLIST
         static void Main()
         {
 
-            StreamReader sr = new StreamReader("Naptar.txt");
-            Task readTask;
-
-            while (!sr.EndOfStream)
-            {
-                String[] line = new string[3];
-                line = sr.ReadLine().Split(',');
-                readTask = new Task(line[0], line[1], DateTime.Parse(line[2]));
-                calendar.NewTask(readTask);
-            }
-            sr.Close();
 
             //ClearFile("Naptar.txt");
 

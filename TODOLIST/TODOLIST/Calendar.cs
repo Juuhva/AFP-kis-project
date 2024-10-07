@@ -9,8 +9,7 @@ namespace TODOLIST
 {
      public class Calendar
     {
-        StreamWriter sw = new StreamWriter("Naptar.txt");
-
+        
 
         List<Task> tasks = new List<Task>();
         //public List<Task> Tasks;
@@ -41,12 +40,7 @@ namespace TODOLIST
 
         public void Save()
         {
-            for (int i = 0; i < tasks.Count; i++)
-            {
-                sw.Write(tasks[i]);
-            }
 
-            sw.Close();
         }
 
 
