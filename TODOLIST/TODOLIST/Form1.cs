@@ -18,13 +18,14 @@ namespace TODOLIST
         {
             InitializeComponent();
             OpenNaptar();
-
+            FillCheckedListBox();
         
         }
 
 
 
         #region
+        Calendar calendar = new Calendar();
 
         private void ClearFile(string filePath)
         {
@@ -34,12 +35,10 @@ namespace TODOLIST
             }
         }
 
-        Calendar calendar = new Calendar();
 
         private void OpenNaptar()
         {
-            Calendar calendar = new Calendar();
-
+            
             StreamReader sr = new StreamReader("Naptar.txt");
             Task readTask;
             while (!sr.EndOfStream)
@@ -53,6 +52,20 @@ namespace TODOLIST
             ClearFile("Naptar.txt");
         }
 
+
+        private void FillCheckedListBox()
+        {
+            List<Task> tasks = new List<Task>();
+            tasks=calendar.GetTasks();
+            for (int i = 0; i < calendar.getLenght; i++)
+            {
+                checkedListBox.Items.Add(calendar.ToString(i));
+            }
+        }
+
+                
+
+
         #endregion
 
 
@@ -64,6 +77,7 @@ namespace TODOLIST
             {
                 line = calendar.ToArray(i);
                 sw.WriteLine(line[0] + "Ł" + line[1] + "Ł" + line[2]);
+                checkedListBox.Items.Add(calendar.ToString(i));
             
             }
 
@@ -97,6 +111,7 @@ namespace TODOLIST
 
         private void button4_Click(object sender, EventArgs e) //save
         {
+            checkedListBox.Items.Clear();
             WriteNaptar();
             this.Close();
         }

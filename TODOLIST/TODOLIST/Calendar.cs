@@ -15,6 +15,11 @@ namespace TODOLIST
         List<Task> tasks = new List<Task>();
         //public List<Task> Tasks;
 
+        public List<Task> GetTasks()
+        {
+            return tasks;
+        }
+
         public Calendar()
         {
             List<Task> tasks;
@@ -58,9 +63,19 @@ namespace TODOLIST
             return array;
         } 
 
+        public string IsEmpty()
+        {
+            if (tasks.Any())
+            {
+                return "nem öres;";
+            }
+            return "öres";
+        }
 
-
-
+        public string ToString(int i)
+        {
+            return tasks[i].Title + " " + tasks[i].Description+" " + tasks[i].Date;
+        }
 
 
 
