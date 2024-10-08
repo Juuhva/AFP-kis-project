@@ -20,7 +20,7 @@ namespace TODOLIST
             InitializeComponent();
             OpenNaptar();
             FillCheckedListBox();
-        
+
         }
 
 
@@ -102,6 +102,7 @@ namespace TODOLIST
                 PopUpForm popup = new PopUpForm();
 
                 popup.ShowDialog();
+                
 
                 //throw new Exception("egyszerre nem lehet több taskot editelni.");
             }
@@ -110,7 +111,7 @@ namespace TODOLIST
 
             for (int i = 0; i < checkedListBox.Items.Count; i++)
             {
-                if (checkedListBox.GetItemChecked(i))
+                if (checkedListBox.GetItemChecked(i) && checkedListBox.CheckedItems.Count < 2)
                 {
                     checkedListBox.Items[i] = tempTask.ToString();
                     calendar.RemoveAt(i);
