@@ -43,12 +43,12 @@ namespace TODOLIST
         }
 
 
-        public void Edit(List<Task> tasks, Task task, string title, string description, DateTime date)
+        /*public void Edit(List<Task> tasks, Task task, string title, string description, DateTime date)
         {
             tasks[tasks.IndexOf(task)].Title = title;
             tasks[tasks.IndexOf(task)].Description = description;
             tasks[tasks.IndexOf(task)].Date = date;
-        }
+        }*/
 
         public void Save()
         {
@@ -62,20 +62,20 @@ namespace TODOLIST
 
         public string[] ToArray(int i)
         {
-            string[] array = new string[3]; // Creates an array with 3 elements
+            string[] array = new string[3]; 
             array[0] = tasks[i].Title;
             array[1] = tasks[i].Description;
             array[2] = Convert.ToString(tasks[i].Date);
             return array;
         } 
 
-        public string IsEmpty()
+        public bool IsEmpty()
         {
             if (tasks.Any())
             {
-                return "nem öres;";
+                return true;
             }
-            return "öres";
+            return false;
         }
 
         public string ToString(int i)

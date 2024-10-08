@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Globalization;
+using System.Reflection;
 
 namespace TODOLIST
 {
@@ -96,8 +97,25 @@ namespace TODOLIST
 
         private void button2_Click(object sender, EventArgs e) //Edit
         {
+            if (checkedListBox.CheckedItems.Count>1)
+            {
+                throw new Exception("egyszerre nem lehet több taskot editelni.");
+            }
+
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
-            calendar.NewTask(tempTask);
+
+            for (int i = 0; i < checkedListBox.Items.Count; i++)
+            {
+                if (checkedListBox.GetItemChecked(i))
+                {
+                    checkedListBox.Items[i] = tempTask.ToString();
+                    calendar.RemoveAt(i);
+                    calendar.NewTask(tempTask);
+                }
+            }
+
+
+
 
         }
 
@@ -106,17 +124,13 @@ namespace TODOLIST
             int index=0;
             while (index != calendar.getLenght)
             {
-
-
                 if (checkedListBox.GetItemChecked(index))
                 {
                     calendar.RemoveAt(index);
                     checkedListBox.Items.RemoveAt(index); // teendő eltávolítása, Misi:Listából is el kell tavolitani
 
                     index = 0;
-
                 }
-
 
                 if (checkedListBox.Items.Count > index && !checkedListBox.GetItemChecked(index))
                     index++;
