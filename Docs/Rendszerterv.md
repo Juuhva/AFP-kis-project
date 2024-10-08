@@ -44,6 +44,15 @@ A cégünk a Googletől kapott megbízást, hogy készítsünk egy To Do List-et
 
 ### 2.4 Mérföldkövek
 
+
+* 09.24. Követelmény specifikáció elkészítése
+* 09.27. Funkcionális specifikáció elkészítése
+* 09.30. Rendszerterv elkészítése
+* 10.07. Back- és Front-end elkészítése
+* 10.08. Előzetes tesztelések és prototípus elkészítése
+* 10.09. Prototípus prezentálása
+
+
 ## 3. Üzleti folyamatok modellje
 ![folyamatabra](../Docs/Img/TODOLIST_folyamatábra.png)
 
