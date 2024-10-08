@@ -72,7 +72,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Uzenet_label;
+        public System.Windows.Forms.Label Uzenet_label;
         private System.Windows.Forms.Button ertesitesButton;
     }
 }

@@ -18,6 +18,11 @@ namespace TODOLIST
             Uzenet_label.Text = "Egyszerre nem szerkeszthető két teendő!";
         }
         
+        public void SetLabel(string message)
+        {
+            Uzenet_label.Text=message;
+        }
+
         private void ertesitesButton_Click(object sender, EventArgs e)
         {
 

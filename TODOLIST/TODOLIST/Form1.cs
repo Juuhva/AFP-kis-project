@@ -97,21 +97,29 @@ namespace TODOLIST
 
         private void button2_Click(object sender, EventArgs e) //Edit
         {
-            if (checkedListBox.CheckedItems.Count > 1 && Cim_textBox.Text == "")
+
+            PopUpForm popup = new PopUpForm();
+
+            if (checkedListBox.CheckedItems.Count > 1)
             {
-                PopUpForm popup = new PopUpForm();
 
-                popup.ShowDialog();
-                
-
-                //throw new Exception("egyszerre nem lehet több taskot editelni.");
+                popup.SetLabel("Egyszerre nem szerkeszthető két teendő!");
+                popup.ShowDialog();   
             }
+            else if (Cim_textBox.Text == "")
+            {
+                popup.SetLabel("A cím mező nem lehet üres!");
+                popup.ShowDialog();
+            }
+            else
+            {
+
 
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
 
             for (int i = 0; i < checkedListBox.Items.Count; i++)
             {
-                if (checkedListBox.GetItemChecked(i) && checkedListBox.CheckedItems.Count < 2)
+                if (checkedListBox.GetItemChecked(i))
                 {
                     checkedListBox.Items[i] = tempTask.ToString();
                     calendar.RemoveAt(i);
@@ -119,6 +127,7 @@ namespace TODOLIST
                 }
             }
 
+            }
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
 
