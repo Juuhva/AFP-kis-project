@@ -20,6 +20,7 @@ namespace TODOLIST
         private void ertesitesButton_Click(object sender, EventArgs e)
         {
 
+            this.Close();
         }
     }
 }
