@@ -99,7 +99,11 @@ namespace TODOLIST
         {
             if (checkedListBox.CheckedItems.Count>1)
             {
-                throw new Exception("egyszerre nem lehet több taskot editelni.");
+                PopUpForm popup = new PopUpForm();
+
+                popup.ShowDialog();
+
+                //throw new Exception("egyszerre nem lehet több taskot editelni.");
             }
 
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
