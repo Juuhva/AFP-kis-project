@@ -16,5 +16,10 @@ namespace TODOLIST
         {
             InitializeComponent();
         }
+
+        private void ertesitesButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
