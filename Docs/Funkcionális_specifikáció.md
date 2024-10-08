@@ -96,6 +96,7 @@ Egyéb műveletek:
 ## 10. Funkció - követelmény megfeleltetése
 
 Id|Követelmény|Funkció|
+| :---: | --- | --- |
 K1|Hibamentes működés, letisztult megjelenítés|	Egy felhasználó által megadott új feladat hozzáadása a listához a „Hozzáadás” gomb megnyomása után.
 K2|Hibamentes működés, letisztult megjelenítés|	Egy meglévő feladat módosítása. A „Szerkesztés” gomb megnyomása után a felhasználó módosíthatja a kiválasztott feladatot, ami frissítve jelenik meg a listában.
 K3|Hibamentes működés, letisztult megjelenítés|	Egy meglévő feladat törlése a listából a „Törlés” gomb megnyomása után.
