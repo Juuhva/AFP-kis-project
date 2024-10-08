@@ -118,7 +118,8 @@ namespace TODOLIST
                 }
             }
 
-
+            Cim_textBox.Clear();
+            Leiras_textBox.Clear();
 
 
         }
