@@ -97,7 +97,7 @@ namespace TODOLIST
 
         private void button2_Click(object sender, EventArgs e) //Edit
         {
-            if (checkedListBox.CheckedItems.Count>1)
+            if (checkedListBox.CheckedItems.Count>1 || Cim_textBox.Text == "" || Leiras_textBox.Text == "")
             {
                 PopUpForm popup = new PopUpForm();
 
