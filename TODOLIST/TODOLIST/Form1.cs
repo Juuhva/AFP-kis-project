@@ -88,7 +88,7 @@ namespace TODOLIST
             calendar.NewTask(tempTask);
             if (tempTask.Title != "")
             {
-                checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába
+                checkedListBox.Items.Add(tempTask.ToString());
             }
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
@@ -113,7 +113,6 @@ namespace TODOLIST
                     calendar.RemoveAt(index);
                     checkedListBox.Items.RemoveAt(index); // teendő eltávolítása, Misi:Listából is el kell tavolitani
 
-                    Cim_textBox.Text = "Savlar";
                     index = 0;
 
                 }

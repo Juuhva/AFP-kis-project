@@ -53,7 +53,11 @@ namespace TODOLIST
 
 
 
-
+        public string ToString()
+        {
+            return "FELADAT:" + Title + " Leírás:" +
+                Description + " Időpont:" + Date.ToString("yyyy-MM-dd");
+        }
 
 
         
