@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
@@ -22,7 +23,7 @@ namespace TODOLIST
 
         public Calendar()
         {
-            List<Task> tasks;
+        
         }
 
 
@@ -34,6 +35,11 @@ namespace TODOLIST
         public void Delete(Task task)
         {
             tasks.Remove(task);
+        }
+
+        public void RemoveAt(int i)
+        {
+            tasks.RemoveAt(i);
         }
 
 
@@ -74,7 +80,8 @@ namespace TODOLIST
 
         public string ToString(int i)
         {
-            return "Feladat:"+tasks[i].Title + " Leírás:" + tasks[i].Description+" Időpont:" + tasks[i].Date;
+            return "FELADAT:"+tasks[i].Title + " Leírás:" +
+                tasks[i].Description+" Időpont:" + tasks[i].Date.ToString("yyyy-MM-dd");
         }
 
 

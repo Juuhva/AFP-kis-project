@@ -83,16 +83,13 @@ namespace TODOLIST
 
         private void button1_Click(object sender, EventArgs e) //new task btn
         {
-            Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
+            DateTime date = dateTimePicker.Value.Date;
+            Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value.Date);
             calendar.NewTask(tempTask);
-<<<<<<< Updated upstream
             if (tempTask.Title != "")
             {
                 checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába
             }
-=======
-            checkedListBox.Items.Add(tempTask.Title); // A címet illeszti be a listába, Misi: az miért jó?
->>>>>>> Stashed changes
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
         }
@@ -106,16 +103,39 @@ namespace TODOLIST
 
         private void button3_Click(object sender, EventArgs e) //delete
         {
-            Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value);
-            calendar.Delete(tempTask);
-            int count = checkedListBox.Items.Count;
-            for (int i = count; i > 0; i--)
+            int index=0;
+            while (index != calendar.getLenght)
+            {
+                
+
+                if (checkedListBox.GetItemChecked(index))
+                {
+                    calendar.RemoveAt(index);
+                    checkedListBox.Items.RemoveAt(index); // teendő eltávolítása, Misi:Listából is el kell tavolitani
+
+                    Cim_textBox.Text = "Savlar";
+                    index = 0;
+
+                }
+
+
+                if (!checkedListBox.GetItemChecked(index))
+                    index++;
+                
+            }
+            /*for (int i = 0; i < checkedListBox.Items.Count; i++)
+            {
+            }*/
+
+            /*for (int i = checkedListBox.Items.Count; i > 0; i--)
             {
                 if (checkedListBox.CheckedItems.Contains(checkedListBox.Items[i-1]))
                 {
                     checkedListBox.Items.RemoveAt(i - 1); // teendő eltávolítása, Misi:Listából is el kell tavolitani
                 }
-            }
+            }*/
+
+
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
 
