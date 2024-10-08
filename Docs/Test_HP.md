@@ -19,5 +19,7 @@ Tesztelő: Hegyközi Petra
 Tesztelés dátuma: 2023. október. 08 23:40
 | Tesztszám | Rövid leírás                     | Várt eredmény                                                                           | Eredmény                                                                       | Megjegyzés                |
 |-----------|----------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
-| Teszt #01 |  |  |  |  |
-
+| Teszt #01 | Új teendő hozzáadása gomb megnyomása, ha üres a cím szövegdoboz | Megjelenik a PopUp Form és kiírja, hogy nem lehet üres a cím mező. | Megjelenik a PopUp Form és a várt hibát kiírja. | Nem találtam hibát. |
+| Teszt #02 | Új teendő hozzáadása gomb megnyomása, ha üres a cím és a leírás szövegdoboza | Megjelenik a PopUp Form és kiírja, hogy nem lehet üres a cím mező. | Megjelenik a PopUp Form és a várt hibát kiírja. | Nem találtam hibát. |
+| Teszt #03 | Új teendő hozzáadása gomb megnyomása, ha nem üres a cím szövegdoboz | Hozzáadja a checkedListBox-hoz a teendőt. | A checkedListBox-ban megjelenik a címmel és leírással ellátott elem. | Nem találtam hibát. |
+| Teszt #04 | Új teendő hozzáadása gomb megnyomása, ha nem üres a cím szövegdoboz, a leírásé pedig üres | Hozzáadja a checkedListBox-hoz a teendőt. | A checkedListBox-ban megjelenik a címmel ellátott elem. | Nem találtam hibát. |
