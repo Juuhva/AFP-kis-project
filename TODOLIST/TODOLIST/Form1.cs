@@ -106,7 +106,7 @@ namespace TODOLIST
             int index=0;
             while (index != calendar.getLenght)
             {
-                
+
 
                 if (checkedListBox.GetItemChecked(index))
                 {
@@ -118,7 +118,7 @@ namespace TODOLIST
                 }
 
 
-                if (!checkedListBox.GetItemChecked(index))
+                if (checkedListBox.Items.Count > index && !checkedListBox.GetItemChecked(index))
                     index++;
                 
             }
