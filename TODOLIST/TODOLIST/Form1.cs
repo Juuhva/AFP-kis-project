@@ -86,10 +86,10 @@ namespace TODOLIST
         {
             DateTime date = dateTimePicker.Value.Date;
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value.Date);
-            calendar.NewTask(tempTask);
             if (tempTask.Title != "" && tempTask.Title.Length < 40 && tempTask.Date.Date > DateTime.Now)
             {
                 checkedListBox.Items.Add(tempTask.ToString());
+            calendar.NewTask(tempTask);
             }
             Cim_textBox.Clear();
             Leiras_textBox.Clear();
