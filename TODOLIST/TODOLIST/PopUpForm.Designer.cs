@@ -39,9 +39,8 @@
             this.Uzenet_label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Uzenet_label.Location = new System.Drawing.Point(35, 42);
             this.Uzenet_label.Name = "Uzenet_label";
-            this.Uzenet_label.Size = new System.Drawing.Size(79, 33);
+            this.Uzenet_label.Size = new System.Drawing.Size(0, 33);
             this.Uzenet_label.TabIndex = 0;
-            this.Uzenet_label.Text = "label1";
             // 
             // ertesitesButton
             // 

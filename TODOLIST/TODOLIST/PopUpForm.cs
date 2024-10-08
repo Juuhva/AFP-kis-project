@@ -15,8 +15,9 @@ namespace TODOLIST
         public PopUpForm()
         {
             InitializeComponent();
+            Uzenet_label.Text = "Egyszerre nem szerkeszthető két teendő!";
         }
-
+        
         private void ertesitesButton_Click(object sender, EventArgs e)
         {
 
