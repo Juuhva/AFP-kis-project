@@ -24,6 +24,7 @@ namespace TODOLIST
         }
 
 
+        PopUpForm popup = new PopUpForm();
 
         #region
         Calendar calendar = new Calendar();
@@ -86,20 +87,38 @@ namespace TODOLIST
         {
             DateTime date = dateTimePicker.Value.Date;
             Task tempTask = new Task(Cim_textBox.Text, Leiras_textBox.Text, dateTimePicker.Value.Date);
-            if (tempTask.Title != "" && tempTask.Title.Length < 40 && tempTask.Date.Date > DateTime.Now.AddDays(-1))
+            if (tempTask.Title=="")
+            {
+                popup.SetLabel("A cím mező nem lehet üres!");
+                popup.ShowDialog();
+
+            }
+            else if (tempTask.Title.Length>40)
+            {
+                popup.SetLabel("A cím mező nem lehet hoszabb 40 karakternél");
+                popup.ShowDialog();
+
+            }
+            else if (tempTask.Date.Date < DateTime.Now.AddDays(-1))
+            {
+                popup.SetLabel("A megadott dátum nem lehet a multban");
+                popup.ShowDialog();
+
+            }
+            else
             {
                 checkedListBox.Items.Add(tempTask.ToString());
                 calendar.NewTask(tempTask);
+                Cim_textBox.Clear();
+                Leiras_textBox.Clear();
+
             }
-            Cim_textBox.Clear();
-            Leiras_textBox.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e) //Edit
         {
 
-            PopUpForm popup = new PopUpForm();
-
+            
             if (checkedListBox.CheckedItems.Count > 1)
             {
 
@@ -111,7 +130,12 @@ namespace TODOLIST
                 popup.SetLabel("A cím mező nem lehet üres!");
                 popup.ShowDialog();
             }
-            else
+            else if (Cim_textBox.Text.Length>40)
+            {
+                popup.SetLabel("A cím mező nem lehet hoszabb mint 40 karakter!");
+                popup.ShowDialog();
+
+            }
             {
 
 
@@ -124,12 +148,12 @@ namespace TODOLIST
                     checkedListBox.Items[i] = tempTask.ToString();
                     calendar.RemoveAt(i);
                     calendar.NewTask(tempTask);
+                    Cim_textBox.Clear();
+                    Leiras_textBox.Clear();
                 }
             }
 
             }
-            Cim_textBox.Clear();
-            Leiras_textBox.Clear();
 
 
         }
