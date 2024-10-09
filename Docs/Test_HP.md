@@ -23,3 +23,9 @@ Tesztelés dátuma: 2023. október. 08 23:40
 | Teszt #02 | Új teendő hozzáadása gomb megnyomása, ha üres a cím és a leírás szövegdoboza | Megjelenik a PopUp Form és kiírja, hogy nem lehet üres a cím mező. | Megjelenik a PopUp Form és a várt hibát kiírja. | Nem találtam hibát. |
 | Teszt #03 | Új teendő hozzáadása gomb megnyomása, ha nem üres a cím szövegdoboz | Hozzáadja a checkedListBox-hoz a teendőt. | A checkedListBox-ban megjelenik a címmel és leírással ellátott elem. | Nem találtam hibát. |
 | Teszt #04 | Új teendő hozzáadása gomb megnyomása, ha nem üres a cím szövegdoboz, a leírásé pedig üres | Hozzáadja a checkedListBox-hoz a teendőt. | A checkedListBox-ban megjelenik a címmel ellátott elem. | Nem találtam hibát. |
+| Teszt #05 | Új teendő hozzáadása gomb megnyomása, ha korábbi dátumot adunk meg | Megjelenik a PopUp Form és kiírja, hogy nem lehet korábbi dátumot megadni. | Megjelenik a PopUp Form és a várt hibát kiírja. | Nem találtam hibát. |
+| Teszt #06 | Új teendő hozzáadása gomb megnyomása, ha későbbi dátumot adunk meg | Hozzáadja a checkedListBox-hoz a teendőt. | Hozzáadja a checkedListBox-hoz a teendőt. | Nem találtam hibát. |
+| Teszt #07 | Szerkesztés gomb megnyomása egy kiválasztott teendőnél | Átírja a checkedListBox-ban lévő teendő címét és/vagy leírását. | A checkedListBox-ban lévő kiválasztott elem módosításra kerül. | Nem találtam hibát. |
+| Teszt #08 |  |  |  |  |
+| Teszt #09 |  |  |  |  |
+| Teszt #10 |  |  |  |  |
