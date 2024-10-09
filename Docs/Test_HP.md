@@ -10,7 +10,7 @@
  | Szerkesztés gomb megnyomása egy kiválasztott teendőnél | Átírja a checkedListBox-ban lévő teendő címét és/vagy leírását. |
  | Szerkesztés gomb megnyomása kettő vagy annál több kiválasztott teendőnél | Nem írja át a checkedListBox-ban lévő teendő címét és/vagy leírását, a PopUp Form megjelenik és kiírja, hogy nem szerkeszthető egyszerre két teendő. | 
  | Törlés gomb megnyomása egy kiválasztott teendő esetében | Kitörli a checkedListBox-ból az elemet. |
- | Törlés gomb megnyomása kettő vagy annál több teendő esetében | Kitörli a checkedListBox-ból az elemet. |
+ | Törlés gomb megnyomása kettő vagy annál több teendő esetében | Kitörli a checkedListBox-ból az elemeket. |
  | Mentés gomb megnyomása | Elmenti a teendőket, és kilép a programból. |
 
  ### Ezeket a teszteseteket végrehajtani a legtöbb kombinációval
@@ -26,6 +26,7 @@ Tesztelés dátuma: 2023. október. 08 23:40
 | Teszt #05 | Új teendő hozzáadása gomb megnyomása, ha korábbi dátumot adunk meg | Megjelenik a PopUp Form és kiírja, hogy nem lehet korábbi dátumot megadni. | Megjelenik a PopUp Form és a várt hibát kiírja. | Nem találtam hibát. |
 | Teszt #06 | Új teendő hozzáadása gomb megnyomása, ha későbbi dátumot adunk meg | Hozzáadja a checkedListBox-hoz a teendőt. | Hozzáadja a checkedListBox-hoz a teendőt. | Nem találtam hibát. |
 | Teszt #07 | Szerkesztés gomb megnyomása egy kiválasztott teendőnél | Átírja a checkedListBox-ban lévő teendő címét és/vagy leírását. | A checkedListBox-ban lévő kiválasztott elem módosításra kerül. | Nem találtam hibát. |
-| Teszt #08 |  |  |  |  |
-| Teszt #09 |  |  |  |  |
-| Teszt #10 |  |  |  |  |
+| Teszt #08 | Szerkesztés gomb megnyomása kettő vagy annál több kiválasztott teendőnél | Nem írja át a checkedListBox-ban lévő teendő címét és/vagy leírását, a PopUp Form megjelenik és kiírja, hogy nem szerkeszthető egyszerre két teendő. | A checkedListBox-ban lévő kiválasztott elem nem kerül módosításra. | Nem találtam hibát. |
+| Teszt #09 | Törlés gomb megnyomása egy kiválasztott teendő esetében | Kitörli a checkedListBox-ból az elemet. | A checkedListBox-ban lévő kiválasztott elemet eltávolítja. | Nem találtam hibát. |
+| Teszt #10 | Törlés gomb megnyomása kettő vagy annál több teendő esetében | Kitörli a checkedListBox-ból az elemet. | A checkedListBox-ban lévő kiválasztott elemeket eltávolítja. | Nem találtam hibát. |
+| Teszt #11 | Mentés gomb megnyomása | Elmenti a teendőket, és kilép a programból. Ha ismét elindítjuk a programot, akkor a listában szerepelnek a korábban megadott teendők. | A teendők mentésre kerültek, utána pedig kilép a programból. | Nem találtam hibát. |
